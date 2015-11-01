@@ -1,0 +1,2 @@
+# knowledge
+random bits useful
