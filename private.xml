@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<root>
+    <item>
+      <name>For broken "asd" key</name>
+      <item>
+        <name>Input a by option-q</name>
+        <identifier>remap.option_q_to_key_a</identifier>
+        <autogen>
+          __HoldingKeyToKey__
+          KeyCode::Q, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION,
+          KeyCode::A,
+          KeyCode::VK_NONE,
+          KeyCode::A, ModifierFlag::SHIFT_L
+        </autogen>
+      </item>
+      <item>
+        <name>Input s by option-w</name>
+        <identifier>remap.option_w_to_key_s</identifier>
+        <autogen>
+          __HoldingKeyToKey__
+          KeyCode::W, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, 
+          KeyCode::S,
+          KeyCode::VK_NONE,
+          KeyCode::S, ModifierFlag::SHIFT_L
+        </autogen>
+      </item>
+      <item>
+        <name>Input d by option-e</name>
+        <identifier>remap.option_e_to_key_d</identifier>
+        <autogen>
+          __HoldingKeyToKey__
+          KeyCode::E, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION,
+          KeyCode::D,
+          KeyCode::VK_NONE,
+          KeyCode::D, ModifierFlag::SHIFT_L
+        </autogen>
+      </item>
+    </item>
+</root>
